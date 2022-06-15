@@ -1,0 +1,15 @@
+@import "../../styles/mixins.scss";
+
+.last-update {
+  text-transform: lowercase;
+}
+
+.assignee {
+  @include flex-center;
+  gap: 13px;
+}
+
+.avatar {
+  @include circle(20px);
+  background: yellow;
+}

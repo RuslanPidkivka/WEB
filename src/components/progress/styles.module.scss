@@ -1,0 +1,35 @@
+.progress {
+  position: relative;
+  width: 100%;
+  background: #e9ecef;
+  height: 6px;
+  border-radius: 12px;
+}
+
+.bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: inherit;
+
+  &.green {
+    background: var(--green-gradient);
+  }
+
+  &.pink {
+    background: var(--pink-gradient);
+  }
+
+  &.blue {
+    background: var(--blue-gradient);
+  }
+
+  &.yellow {
+    background: var(--yellow-gradient);
+  }
+
+  &.purple {
+    background: var(--purple-gradient);
+  }
+}

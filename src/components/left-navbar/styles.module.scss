@@ -1,0 +1,35 @@
+.navbar {
+  box-sizing: border-box;
+
+  height: calc(100vh - 77px);
+
+  background: var(--navbar-bg);
+  top: 72px;
+  width: 260px;
+  padding: 5px 0;
+  padding-left: 25px;
+  padding-right: 20px;
+
+  overflow-y: auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  align-items: stretch;
+  margin-bottom: 75px;
+}
+
+.button {
+  border-top: 1px solid var(--separator);
+  border-bottom: 1px solid var(--separator);
+  padding: 17px 0;
+  margin: 17px 0;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

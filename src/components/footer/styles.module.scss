@@ -1,0 +1,29 @@
+@import "../../styles/mixins.scss";
+
+.footer {
+  @include flex-space-between;
+
+  padding: 25px;
+
+  border-top: 1px solid #e9e5ea;
+
+  color: #b1b2b9;
+  font-size: 13px;
+
+  .left,
+  .right {
+    @include flex-center;
+  }
+
+  .left {
+    span {
+      color: #32d2bb;
+      margin: 0 5px;
+    }
+  }
+}
+
+.heart {
+  fill: url("#pink-vertical-gradient");
+  margin-left: 5px;
+}

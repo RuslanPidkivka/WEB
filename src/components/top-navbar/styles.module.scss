@@ -1,0 +1,51 @@
+@import "../../styles/typography.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.navbar {
+  z-index: 999;
+  box-sizing: border-box;
+  padding: 0 20px;
+  padding-left: 52px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 72px;
+
+  width: 100%;
+  background: var(--navbar-bg);
+
+  @include flex-space-between;
+  @include flex-center;
+}
+
+.logo {
+  @include flex-center;
+
+  gap: 15px;
+
+  @include gradient-text($primary-gradient);
+
+  svg {
+    width: 20px;
+    height: 20px;
+
+    fill: var(--active);
+  }
+}
+
+.left {
+  @include flex-center;
+  gap: 37px;
+}
+
+.buttons {
+  @include flex-center;
+  gap: 45px;
+  flex: 1;
+}
+
+.search {
+  flex: 0.85;
+}

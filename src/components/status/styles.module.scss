@@ -1,0 +1,24 @@
+.status {
+  font-size: 11px;
+  color: #fff;
+  padding: 8px 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 6px;
+
+  &.done {
+    background: var(--green-gradient);
+  }
+
+  &.progress {
+    background: var(--yellow-gradient);
+  }
+
+  &.on-hold {
+    background: var(--blue-gradient);
+  }
+
+  &.rejected {
+    background: var(--pink-gradient);
+  }
+}

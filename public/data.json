@@ -1,0 +1,75 @@
+{
+  "profile": {
+    "avatar": "",
+    "fullName": "David Grey H.",
+    "position": "Project Manager"
+  },
+  "weeklySales": { "value": 150000, "changePercent": 60 },
+  "weeklyOrders": { "value": 495057, "changePercent": -10 },
+  "visitorsOnline": { "value": 955741, "changePercent": 5 },
+  "hasNotifications": true,
+  "hasUnreadMessages": true,
+  "visitSalesStatistic": [
+    { "month": "Jan", "chn": 99, "usa": 43, "uk": 91 },
+    { "month": "Feb", "chn": 43, "usa": 66, "uk": 89 },
+    { "month": "Mar", "chn": 26, "usa": 18, "uk": 69 },
+    { "month": "Apr", "chn": 31, "usa": 20, "uk": 25 },
+    { "month": "May", "chn": 80, "usa": 96, "uk": 57 },
+    { "month": "Jun", "chn": 24, "usa": 94, "uk": 47 },
+    { "month": "Jul", "chn": 20, "usa": 40, "uk": 16 },
+    { "month": "Aug", "chn": 52, "usa": 56, "uk": 42 }
+  ],
+  "trafficSourcesStatistic": [
+    { "name": "Search Engines", "value": 33.3, "color": "blue" },
+    { "name": "Directs Click", "value": 33.3, "color": "green" },
+    { "name": "Bookmarks Click", "value": 33.3, "color": "pink" }
+  ],
+  "tickets": [
+    {
+      "assigneeFullname": "David Grey",
+      "assigneeAvatar": "/avatar1.png",
+      "subject": "Funds is not received",
+      "status": "done",
+      "lastUpdate": "2017-06-26",
+      "trackingId": "WD-12345"
+    },
+    {
+      "assigneeFullname": "Stell Johnson",
+      "assigneeAvatar": "/avatar2.png",
+      "subject": "Assign a new task Design Purpleadmin",
+      "status": "progress",
+      "lastUpdate": "2017-06-26",
+      "trackingId": "WD-12346"
+    },
+    {
+      "assigneeFullname": "Marina Michel",
+      "assigneeAvatar": "/avatar3.png",
+      "subject": "Website down for a week",
+      "status": "on hold",
+      "lastUpdate": "2017-06-26",
+      "trackingId": "WD-12347"
+    },
+    {
+      "assigneeFullname": "John Doe",
+      "assigneeAvatar": "/avatar4.png",
+      "subject": "Understanding dashboard problems",
+      "status": "rejected",
+      "lastUpdate": "2017-06-26",
+      "trackingId": "WD-12348"
+    }
+  ],
+  "recentUpdate": {
+    "fullname": "Jack Menqu",
+    "avatar": "",
+    "subject": "School Website - Authentication Module",
+    "details": "Its is a long established fact that a reader will be distracted by the readable content of a page.",
+    "lastUpdate": "2018-10-03"
+  },
+  "projects": [
+    { "assignee": "Herman Beck", "dueDate": "2015-15-05", "progress": 30 },
+    { "assignee": "Messy Adam", "dueDate": "2015-01-07", "progress": 80 },
+    { "assignee": "John Richards", "dueDate": "2015-12-04", "progress": 60 },
+    { "assignee": "Ashton Coui", "dueDate": "2015-15-05", "progress": 25 },
+    { "assignee": "Daniel Russe", "dueDate": "2015-03-05", "progress": 45 }
+  ]
+}

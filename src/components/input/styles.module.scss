@@ -1,0 +1,12 @@
+@import "../../styles/mixins.scss";
+
+.input {
+  @include flex-center;
+  @include styles-reset;
+  width: 100%;
+}
+
+.wrapper {
+  @include flex-center;
+  gap: 25px;
+}

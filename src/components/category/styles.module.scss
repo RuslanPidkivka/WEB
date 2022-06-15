@@ -1,0 +1,16 @@
+@import "../../styles/mixins.scss";
+
+.outer-circle {
+  @include flex-center-center;
+  @include circle(17px);
+
+  .inner-circle {
+    @include circle(11px);
+    background: var(--navbar-bg);
+  }
+}
+
+.category {
+  @include flex-center;
+  gap: 21px;
+}

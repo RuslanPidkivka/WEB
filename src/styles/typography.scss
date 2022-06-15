@@ -1,0 +1,22 @@
+.link {
+  font-size: 14px;
+  color: #29323d;
+  font-weight: normal;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #ededed;
+}
+
+.title {
+  font-size: 14px;
+  color: black;
+  font-weight: 700;
+}
+
+@mixin gradient-text($gradient) {
+  background: -webkit- + #{$gradient};
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

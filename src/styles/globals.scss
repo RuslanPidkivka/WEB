@@ -1,0 +1,160 @@
+html,
+body,
+#__next {
+  font-family: "Maven Pro", sans-serif;
+  background: var(--page-bg);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#__next {
+  min-height: 100%;
+}
+
+:root {
+  --page-bg: #f2edf3;
+  --navbar-bg: #fff;
+  --active-link: #b66dff;
+  --active: #b66dff;
+  --primary-icon: #bfabc3;
+  --secondary-icon: #9c9fa6;
+
+  --green: #1bcfb4;
+  --primary-gradient-horizontal: linear-gradient(
+    90deg,
+    #da9dff,
+    #d598ff,
+    #d193ff,
+    #cb8fff,
+    #c68aff,
+    #c186ff,
+    #bb81ff,
+    #b57dff
+  );
+
+  --primary-gradient-vertical: linear-gradient(
+    180deg,
+    #da9dff,
+    #d598ff,
+    #d193ff,
+    #cb8fff,
+    #c68aff,
+    #c186ff,
+    #bb81ff,
+    #b57dff
+  );
+
+  --separator: #ebedf2;
+
+  --friends-gradient: linear-gradient(
+    180deg,
+    #ffb496,
+    #ffa992,
+    #ff9f90,
+    #ff9490,
+    #ff8992,
+    #fe7e96
+  );
+
+  --pro-gradient: linear-gradient(
+    180deg,
+    #47ceea,
+    #43c8f5,
+    #51c0fc,
+    #6ab7ff,
+    #86acfe,
+    #a3a0f7
+  );
+
+  --pink-gradient: linear-gradient(
+    90deg,
+    #ffb596,
+    #ffab93,
+    #ffa191,
+    #ff9691,
+    #ff8c93,
+    #fe8296
+  );
+
+  --blue-gradient: linear-gradient(
+    90deg,
+    #7ec1f6,
+    #6eb7f3,
+    #5eadf0,
+    #4da3ec,
+    #3a99e9,
+    #238fe5
+  );
+
+  --green-gradient: linear-gradient(
+    90deg,
+    #74d5cb,
+    #67d1c4,
+    #59cdbe,
+    #49c9b7,
+    #38c4af,
+    #21c0a8
+  );
+
+  --yellow-gradient: linear-gradient(
+    90deg,
+    #f7e274,
+    #f8e067,
+    #f9de59,
+    #fadc4b,
+    #fcd93a,
+    #fdd725
+  );
+
+  --purple-gradient: linear-gradient(
+    90deg,
+    #d285ff,
+    #ca7cff,
+    #c174ff,
+    #b76cff,
+    #ad64ff,
+    #a25cff
+  );
+
+  --purple-vertical-gradient: linear-gradient(
+    180deg,
+    #d285ff,
+    #ca7cff,
+    #c174ff,
+    #b76cff,
+    #ad64ff,
+    #a25cff
+  );
+
+  --pink-vertical-gradient: linear-gradient(
+    180deg,
+    #ffb596,
+    #ffaa92,
+    #ff9e8f,
+    #ff9290,
+    #ff8692,
+    #fe7a96
+  );
+
+  --blue-vertical-gradient: linear-gradient(
+    180deg,
+    #44cfea,
+    #3cc8f5,
+    #49c0fd,
+    #64b6ff,
+    #83aaff,
+    #a19df7
+  );
+
+  --green-vertical-gradient: linear-gradient(
+    180deg,
+    #74d5cb,
+    #67d1c4,
+    #59cdbe,
+    #49c9b7,
+    #38c4af,
+    #21c0a8
+  );
+}

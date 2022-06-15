@@ -1,0 +1,24 @@
+@import "../../styles/mixins.scss";
+
+.card {
+  box-sizing: border-box;
+  @include width-height-full;
+
+  padding: 37px 31px;
+
+  background: #fff;
+  border-radius: 16px;
+}
+
+.content {
+  @include width-height-full;
+}
+
+.head {
+  @include flex-space-between;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 27px;
+}

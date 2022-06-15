@@ -1,0 +1,52 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #babcc1;
+  font-size: 12px;
+}
+
+.main {
+  display: flex;
+  gap: 9px;
+  text-transform: inherit;
+
+  align-items: center;
+
+  &.capitalize {
+    text-transform: capitalize;
+  }
+
+  &.uppercase {
+    text-transform: uppercase;
+  }
+
+  &.lowercase {
+    text-transform: lowercase;
+  }
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  border-radius: 50%;
+
+  &.green {
+    background: var(--green-vertical-gradient);
+  }
+
+  &.purple {
+    background: var(--purple-vertical-gradient);
+  }
+
+  &.pink {
+    background: var(--pink-vertical-gradient);
+  }
+
+  &.blue {
+    background: var(--blue-vertical-gradient);
+  }
+}

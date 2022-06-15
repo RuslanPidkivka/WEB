@@ -1,0 +1,74 @@
+@import "../../styles/typography.scss";
+@import "../../styles/mixins.scss";
+
+.profile {
+  margin-bottom: 50px;
+
+  @include flex-space-between;
+
+  .position {
+    @extend .subtitle;
+  }
+
+  .name {
+    @extend .title;
+  }
+
+  .name,
+  .position {
+    white-space: nowrap;
+  }
+
+  .avatar {
+    width: 44px;
+    height: 44px;
+    background: green;
+    border-radius: 50%;
+    margin-right: 18px;
+  }
+
+  .photo {
+    width: inherit;
+    height: inherit;
+    background: inherit;
+    border-radius: inherit;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 39px;
+  }
+
+  .icon {
+    min-width: 14px;
+    min-height: 14px;
+    width: 14px;
+    height: 14px;
+
+    fill: var(--green);
+  }
+
+  &.inline {
+    align-items: center;
+    margin-bottom: 0;
+
+    .avatar {
+      width: 33px;
+      height: 33px;
+    }
+
+    .position {
+      display: none;
+    }
+
+    .icon {
+      display: none;
+    }
+
+    .info {
+      margin-right: 0;
+    }
+  }
+}

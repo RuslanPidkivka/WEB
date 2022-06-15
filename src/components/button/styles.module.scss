@@ -1,0 +1,35 @@
+@import "../../styles/mixins.scss";
+
+.button {
+  @include styles-reset;
+
+  font-size: 14px;
+  color: #fff;
+
+  &.primary {
+    background: var(--primary-gradient-vertical);
+    padding: 17px 45px;
+    border-radius: 6px;
+
+    &:hover {
+      background: var(--blue-gradient);
+    }
+  }
+
+  &.secondary {
+    color: var(--secondary-icon);
+    svg {
+      fill: var(--secondary-icon);
+      stroke: var(--secondary-icon);
+      width: 16px;
+      height: 16px;
+    }
+
+    &:hover {
+      svg {
+        fill: black;
+        stroke: black;
+      }
+    }
+  }
+}

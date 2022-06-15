@@ -1,0 +1,9 @@
+.legend {
+  display: flex;
+
+  &.vertical {
+    flex-direction: column;
+  }
+
+  gap: 33px;
+}

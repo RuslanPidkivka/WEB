@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+  padding-left: 260px;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+.main {
+  flex: 1;
+}
+
+.left-navbar {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  height: 100%;
+}
